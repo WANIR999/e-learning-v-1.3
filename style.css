@@ -1,0 +1,58 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(64, 205, 235, 1) 46%, rgba(173, 245, 196, 1) 90%, rgba(243, 247, 174, 1) 100%);
+}
+.container 
+{
+    border-radius: 15px;
+    margin-top: 160px;
+    width: 300px;
+}
+
+body div:first-child p
+{
+ font-size: 10px;
+}
+span
+{
+    color: #00C1FE;
+}
+h4
+{
+    margin:5px 0 15px 30px;
+}
+h5
+{
+    font-size: 15px;
+}
+label
+{
+    font-size: 12px;
+}
+::placeholder
+{
+    font-size: 10px;
+}
+.error{
+    visibility: visible;
+    color: rgb(245, 87, 87);
+}
+button
+{
+    background: #00C1FE ;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 10px;
+    height: 30px;
+}
+button:hover 
+{
+    cursor: pointer;
+    border: 3px solid #00a8db ;
+}
